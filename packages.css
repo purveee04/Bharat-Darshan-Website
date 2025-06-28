@@ -1,0 +1,108 @@
+.logo{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(162, 147, 51);
+    text-align:center;
+    margin-bottom:-60px
+}
+.logo span{
+    color: rgb(225, 225, 59)
+}
+.heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 2.5rem 0;
+    padding: 2rem 9%;
+}
+.heading span{
+    font-size: 2.8rem;
+    background: rgba(255, 165, 0, 0.2);
+    color:#7a5026;
+    border-radius: .5rem;
+    padding:.2rem 1rem;
+}
+h2{
+    font-size: 40px;
+}
+
+.packages {
+    padding: 2rem 9%;
+     /* Adjust this value based on the height of your fixed content */
+}
+.packages .box-container{
+    display: flex;
+    flex-wrap:wrap;  /*wraps lines*/
+    gap: 2rem;
+}
+/*box1*/
+.box-container .box1{
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.2); 
+}
+
+ .box-container .box1 img{
+    height: 25rem;
+    width: 100%;
+    object-fit:cover;
+}
+.box-container .box1 .content{
+    font-size: 23px;
+    margin-left: 7px;
+    margin-top: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box-container .box1 .content pre{
+    font-family: 'Times New Roman', serif;
+}
+.box-container .box1 .content .star{
+    text-align: right;
+    margin-right: 25px;
+    margin-top: -50px;
+    font-size: 22px;
+}
+.box-container .box1 .content .star i{
+    color:rgb(2, 141, 2);
+}
+.box-container .box1 .content .duration{
+    color: rgb(42, 42, 42);
+}
+.box-container .box1 .content span{
+    color: grey;
+    margin-top:5px;
+    font-size: medium;
+    text-decoration-line: line-through;
+}
+.box-container .box1 .content .price{
+    margin-top:15px;
+}
+.box-container .box1 .content .save{
+    color:rgb(0, 86, 0);
+    font-size: 10px;
+    display: inline-block;
+    padding: .25rem .25rem;
+    background-color: rgb(166, 249, 166);
+}
+.box-container .box1 .book{
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background: #fb8c1e;
+    color:white;
+    padding: .8rem 1.5rem;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    
+}
+
+.btn:hover{
+    background:rgba(255,165,0,.2);
+    color:white;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
