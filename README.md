@@ -1,4 +1,4 @@
-# 🇮🇳 Bharat Darshan
+# Bharat Darshan
 
 **Bharat Darshan** is a front-end travel website designed to showcase the beauty and cultural richness of India. Built using **HTML, CSS, and JavaScript**, it offers a visually appealing and user-friendly platform for discovering tourist destinations, viewing packages, and exploring galleries—with a basic login interface for personalized access.
 
